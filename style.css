@@ -113,6 +113,9 @@ img {
     z-index: 2;
 }
 
+.cuore:hover {
+    color: red;
+}
 .uomo1b {
     position: absolute;
     top: 0;
