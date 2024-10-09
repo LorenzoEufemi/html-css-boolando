@@ -22,16 +22,24 @@ img {
 }
 
 .header {
-    background-color:#FF6900 ;
+    background-color: #FF6900;
     height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+
 }
+
 .col-20 {
     width: 20%;
 }
+
 .col-60 {
     width: 60%;
     text-align: center;
 }
+
 .ul-list {
     display: flex;
     justify-content: cente;
@@ -40,25 +48,34 @@ img {
     text-decoration: none;
 
 }
+
 .icon {
     text-align: right;
     color: white;
     font-size: 60%;
 }
+
 .sotto {
     text-decoration: none;
     font-size: 60%;
     text-align: left;
 }
+
 .row2 {
     display: flex;
     justify-content: space-between;
     margin: 8px;
     padding: 10px;
 }
+
 .logo {
     width: 60px;
 }
+
+main {
+    padding-top: 40px;
+}
+
 .section {
     padding: 30px 0;
 }
@@ -116,11 +133,13 @@ img {
 .cuore:hover {
     color: red;
 }
+
 .uomo1b {
     position: absolute;
     top: 0;
     left: 0;
 }
+
 .uomo1a {
     position: relative;
 }
@@ -128,105 +147,131 @@ img {
 .card:hover .uomo1a {
     z-index: 1;
 }
+
 .donna1b {
     position: absolute;
     top: 0;
     left: 0;
 }
+
 .donna1a {
     position: relative;
 }
+
 .card:hover .donna1a {
     z-index: 1;
 }
+
 .name1 {
-   font-size: 50%;
+    font-size: 50%;
     color: grey;
 }
+
 .descrizione {
     margin-top: 0;
-   line-height: 40%;
+    line-height: 40%;
 }
+
 .name2 {
-    font-size:50%; 
+    font-size: 50%;
     font-weight: 500;
 
 }
+
 .name3 {
     font-size: 50%;
     color: red;
 }
+
 .name4 {
     font-size: 50%;
     text-decoration: line-through;
 }
+
 .donna2b {
     position: absolute;
     top: 0;
     left: 0;
 }
+
 .donna2a {
     position: relative;
 }
+
 .card:hover .donna2a {
     z-index: 1;
 }
+
 .uomo2b {
     position: absolute;
     top: 0;
     left: 0;
 }
+
 .uomo2a {
     position: relative;
 }
+
 .card:hover .uomo2a {
     z-index: 1;
 }
+
 .donna3b {
     position: absolute;
     top: 0;
     left: 0;
 }
+
 .donna3a {
     position: relative;
 }
+
 .card:hover .donna3a {
     z-index: 1;
 }
+
 .donna4b {
     position: absolute;
     top: 0;
     left: 0;
 }
+
 .donna4a {
     position: relative;
 }
+
 .card:hover .donna4a {
     z-index: 1;
-} 
+}
+
 .sos {
     position: absolute;
     left: 0;
 }
+
 .footer {
     background-color: #1A1A1A;
     height: 80px;
 }
+
 .footerbox {
     color: white;
     font-size: small;
     padding-top: 15px;
     display: flex;
 }
+
 .srl {
     font-weight: 600;
     padding-bottom: 5px;
     width: 70%;
 }
+
 .icon2 {
     width: 30%;
     text-align: right;
 }
+
 .icon3 {
     width: 70%;
-} 
+}
